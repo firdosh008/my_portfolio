@@ -5,3 +5,12 @@
 span{
     color:red;
 }
+.nav_bar , .logo{
+    color:white;
+    transition: transform 330ms ease-in-out
+    
+}
+.nav_bar:hover{
+    color:gray;
+    transform: scale(1.5);
+}

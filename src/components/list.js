@@ -1,5 +1,5 @@
-export default function App() {
+export default function App(props) {
     return (
-        <li className='my-10'><a href='#' className=' text-3xl'> <IoHomeOutline/></a></li>  
+        <li className='py-5 nav_bar w-fit'><a href='#' className=' text-3xl'>{props.name}</a></li> 
     )
   }

@@ -4,18 +4,18 @@ import { BiBriefcase } from 'react-icons/bi';
 import { SlGraduation} from 'react-icons/sl';  
 import { GiNotebook} from 'react-icons/gi';
 import { FaRegComments} from 'react-icons/fa';
-
+import List from '../components/list';
 
 export default function App() {
     return (
-        <div className='my-24'> 
+        <div className='my-24 pt-2'> 
         <ul>
-           <li className='my-10'><a href='#' className=' text-3xl'> <IoHomeOutline/></a></li> 
-           <li className='my-10'><a href='#' className=' text-3xl'> <BsPerson/></a></li>
-           <li className='my-10'><a href='#' className=' text-3xl'> <BiBriefcase/></a></li>
-           <li className='my-10'><a href='#' className=' text-3xl'> <SlGraduation/></a></li>
-           <li className='my-10'><a href='#' className=' text-3xl'> <GiNotebook/></a></li>
-           <li className='my-10'><a href='#' className=' text-3xl'> <FaRegComments/></a></li>
+            <List name= {<IoHomeOutline/>}/>
+            <List name= {<BsPerson/>}/>
+            <List name= {<BiBriefcase/>}/>
+            <List name= {<SlGraduation/>}/>
+            <List name= {<GiNotebook/>}/>
+            <List name= {<FaRegComments/>}/>
         </ul>
           
         </div>
