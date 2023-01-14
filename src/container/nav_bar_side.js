@@ -7,18 +7,14 @@ import { FaRegComments} from 'react-icons/fa';
 import List from '../components/list';
 
 export default function App() {
-    return (
-        <div className='my-24 pt-2'> 
-        <ul>
-            <List name= {<IoHomeOutline/>}/>
-            <List name= {<BsPerson/>}/>
-            <List name= {<BiBriefcase/>}/>
-            <List name= {<SlGraduation/>}/>
-            <List name= {<GiNotebook/>}/>
-            <List name= {<FaRegComments/>}/>
+    return ( 
+        <ul className='pt-24 mt-3 w-fit'>
+            <List className="nav_bar text-3xl" name= {<IoHomeOutline/>}/>
+            <List className="nav_bar text-3xl" name= {<BsPerson/>}/>
+            <List className="nav_bar text-3xl" name= {<BiBriefcase/>}/>
+            <List className="nav_bar text-3xl" name= {<SlGraduation/>}/>
+            <List className="nav_bar text-3xl" name= {<GiNotebook/>}/>
+            <List className="nav_bar text-3xl" name= {<FaRegComments/>}/>
         </ul>
-          
-        </div>
-     
     )
   }

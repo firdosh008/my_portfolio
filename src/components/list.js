@@ -1,5 +1,7 @@
 export default function App(props) {
     return (
-        <li className='py-5 nav_bar w-fit'><a href='#' className=' text-3xl'>{props.name}</a></li> 
+        <div className={props.className}>
+        <li className='py-5  w-fit'><a href='#'>{props.name}</a></li> 
+        </div>
     )
   }
