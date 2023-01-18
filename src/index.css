@@ -3,25 +3,56 @@
 @tailwind utilities;
 
 .body{
-    font-family: 'EB Garamond', serif;
+
+    font-family: 'Rubik', sans-serif;
+    background-color:#10101a
+}
+.body .hr1{
+    content: "";
+    position: absolute;
+    top: 94rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    opacity: 0.2;
+    width:60%
+}
+.body .hr2{
+    content: "";
+    position: absolute;
+    top: 153rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    opacity: 0.2;
+    width:60%
 }
 
 span{
-    color:red;
+    color:#e63946;
 }
 .nav_bar , .logo{
     color:white;
     transition: transform 330ms ease-in-out;
+    font-family: 'EB Garamond', serif;
 }
 .nav_bar:hover{
     color:gray;
     transform: scale(1.5);
+    
 }
 
 .intro{
   position:absolute;
   top:13rem;  
   left:31rem;
+  font-family: 'EB Garamond', serif;
 }
 
 .social{
@@ -53,6 +84,10 @@ span{
     font-size:5rem;
 }
 
+.nav{
+    position:fixed;
+}
+
 .btn {
     display:block;
     -webkit-border-radius: 28;
@@ -63,8 +98,114 @@ span{
     font-size: 15px;
     background: #e64e4e;
     padding: 10px 20px 10px 20px;
-    text-decoration: none;}
-    .button{
+    text-decoration: none;
+   }
+.button{
     padding-left:15rem;
   }
+
+  .full_about h1{
+    color:white;
+  }
+.full_about .cv{
+    padding:25px;
+   position:relative;
+   top:5rem;
+}
+.full_about .image{
+    position:relative;
+    top:3rem;
+    left:6rem;
+    width:50%;
+    height:25%;
+}
+.full_about p{
+    padding:20px;
+    color:gray;
+}
+.full_about span{
+    font-size:55px;
+
+}
+.full_about h2{
+    color:gray;
+    display:inline-block;
+    width:30px;
+    font-size:20px;
+    margin-right:7rem;
+    padding-left:10px;
+    padding-bottom:40px
+}
+.detailbox h3{
+    background-color:#e63946;
+    color:white;
+    width:18%;
+    position:relative;
+    top:-25px;
+    left:-25px;
+    box-shadow: 5px 5px white;
+}
+
+.detailbox h2{
+   color:#e63946;
+   position:relative;
+   top:-8rem;
+   left:25rem;
+}
+
+.detailbox{
+    padding:8px;
+    background-color:black;
+    margin-top:35px;
+    width:80%;
+}
+.education h1{
+    color:white;
+    margin-bottom:20px
+}
+.education p{
+    color:gray;
+}
+.skill h2{
+    color:white;
+
+}
+.bar_name{
+   color:white; 
+}
+.skill .span {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background:#e63946;
+    position:relative;
+    top:-4px;
+    left:-7px;
+    display:inline-block;
+}
+
+.deco{
+    color:white;
+    text-decoration:underline;
+    text-decoration-color:#e63946;
+    text-underline-offset:20px;
+    text-decoration-thickness:2px;
+}
+
+.span{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background:#e63946;
+    position:relative;
+    top:-11px;
+    left:7.5rem;
+}
+.full_about .span{
+    top:-2px;
+    left:10rem;
+    display:inline-block;
+}
+
+
 
