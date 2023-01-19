@@ -1,7 +1,4 @@
-import List from '../components/list';
-import {FiFacebook} from 'react-icons/fi';
-import {AiFillLinkedin} from 'react-icons/ai';
-import {BsInstagram ,BsTwitter} from 'react-icons/bs';
+import Social from '../components/social'
 import Button from '../components/button'
 import Typed from 'react-typed'
 
@@ -18,12 +15,7 @@ export default function Intro() {
          loop
          />
         </span></h3>
-      <ul className='w-fit social m-2'>
-      <List className="social_media" name={<FiFacebook/>}/>
-      <List className="social_media" name={<AiFillLinkedin/>}/>
-      <List className="social_media" name={<BsInstagram/>}/>
-      <List className="social_media" name={<BsTwitter/>}/>
-      </ul>
+        <Social/>
       <Button className="button" name="Hire me"/>
       </div> 
     )

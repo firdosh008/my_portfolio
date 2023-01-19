@@ -34,6 +34,20 @@
     width:60%
 }
 
+.body .hr3{
+    content: "";
+    position: absolute;
+    top: 220rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    opacity: 0.2;
+    width:60%
+}
+
 span{
     color:#e63946;
 }
@@ -207,5 +221,140 @@ span{
     display:inline-block;
 }
 
+.full_Projects h1{
+color:white
+}
 
+.full_Projects .span {
+    display:inline-block;
+    position:relative;
+    top:0px;
+    left:12.5rem;
+}
+
+.full_Projects .individual{
+    background-color:#edf2f4;
+}
+.full_Projects p{
+    color:#e63946;
+    display:inline-block;
+    padding-right:4rem;
+    margin:5px;
+    font-size:18px;
+}
+
+.full_Projects .individual h1{
+    color:black;
+}
+
+.full_Projects .individual .zoom:hover{
+    transform: scale(1.2); 
+    transition: transform 400ms ease-in-out;
+}
+
+.contact .span{
+    position:relative;
+    left:12rem;
+}
+
+.contact h3{
+    position:relative;
+    left:7rem;
+}
+.contact p{
+    position:relative;
+    left:6rem;
+}
+.contact .so{
+    position:relative;
+    left:-4rem;
+}
+.contact h2{
+    color:white;
+    display:block;
+    position:relative;
+    padding:5px;
+    left:8.5rem;
+}
+
+.techskill{
+    height:50%;
+}
+
+.techskill h1{
+    color:white;
+    position:relative;
+    text-align:center;
+    margin:10px;
+}
+.techskill .span{
+     position:relative;
+     left:45rem;
+     top:-1px;
+
+}
+.techskill h2{
+    text-decoration:underline;
+    text-decoration-color:#e63946;
+    text-underline-offset:15px;
+    text-decoration-thickness:2px;
+    text-decoration-opacity:0.5;
+}
+
+.techskill  .frontend  {
+    background-color:white;
+    position:relative;
+    left:10rem;
+    top:3rem;
+    padding:25px;
+    display:inline-block;
+}
+
+.techskill  .Backend  {
+    background-color:white;
+    position:relative;
+    left:13rem;
+    top:-10rem;;
+    padding:25px;
+    display:inline-block;
+}
+
+.techskill  .Database  {
+    background-color:white;
+    position:relative;
+    padding:25px;
+    display:inline-block;
+    left:-19rem;
+    top:3rem;
+}
+
+.techskill  .Version  {
+    background-color:white;
+    position:relative;
+    padding:25px;
+    display:inline-block;
+    top:3rem;
+    left:-17rem;
+}
+.techskill  .Hosting{
+    background-color:white;
+    position:relative;
+    display:inline-block;
+    top:-9rem;
+    left:16rem;
+}
+.techskill  .Programming{
+    background-color:white;
+    position:relative;
+    display:inline-block;
+    left:65rem;
+    top:-26rem;
+}
+
+
+.techskill  ls{
+    display:block;
+    margin:20px;
+    font-size:20px;
+}
 

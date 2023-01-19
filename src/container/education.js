@@ -18,7 +18,7 @@ export default function EDUCTAION() {
                  <SKILL name="Backend Development" percentage="70%" />
                  <SKILL name="React Developer" percentage="40%"/>
                  <SKILL name="UI/UX Designer" percentage="60%"/>
-                 <SKILL name="C++ Coding" percentage="50%"/>
+                 <SKILL name="Coding" percentage="50%"/>
             </div>
             </div>
         </div>

@@ -19,7 +19,7 @@ export default function about() {
           <p>
           I'm a Freelancer Front-end Developer with over 6 Month of experience. I'm from India, Dehradun. I code and create web elements for amazing people around the world and for my portfolio.I am also a good coder and have solve many Problems on leetcode and  on other websites. I like work with new people. New people new Experiences.
           </p>
-          <span className='font-bold'>5</span><h2>Projects Completed.</h2>
+          <span className='font-bold'>6</span><h2>Projects Completed.</h2>
           <span className='font-bold'>300+</span><h2>Questions Solved.</h2>
           <Button name="Download CV" />
         </div>
