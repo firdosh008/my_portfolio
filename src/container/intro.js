@@ -6,7 +6,7 @@ export default function Intro() {
  
     return (
       <div className='intro backdrop-blur-sm p-4'>
-      <h1 className= "font-bold">FIRDOSH  AHMAD</h1>
+      <h1 className= "font-bold ">FIRDOSH  AHMAD</h1>
       <h3 className='text-4xl m-2 px-20 font-mono font-extralight'>I'm a <span className='autotype'>
         <Typed 
         strings={["MERN Stack Developer.","Coder.","UI/UX Designer."]}

@@ -4,6 +4,7 @@ export default function Techskill() {
     return (
           <div className="techskill">
             <h1 className="text-5xl"> <span className="deco">Tec</span>h Skills</h1><div className="span w-fit"></div>
+            <div className="ts">
             <div className="frontend rounded-lg w-fit">
                 <h2  className="text-4xl font-extrabold">Frontend</h2>
                  <ul className="mt-7">
@@ -26,7 +27,7 @@ export default function Techskill() {
             </div>
 
             <div className="Hosting rounded-lg w-fit">
-                <h2 className="text-4xl p-5 font-extrabold">Hosting Platform</h2>
+                <h2 className="text-4xl  font-extrabold">Hosting</h2>
                  <ul>
                     <ls>Heroku</ls>
                     <ls>GitHub Pages</ls>
@@ -47,8 +48,8 @@ export default function Techskill() {
                  </ul>
             </div>
 
-            <div className="Programming p-5 rounded-lg w-fit ">
-                <h2 className="text-4xl  font-extrabold">Programming Languages</h2>
+            <div className="Programming rounded-lg w-fit ">
+                <h2 className="text-4xl  font-extrabold">Language</h2>
                  <ul>
                     <ls>JavaScript</ls>
                     <ls>Python</ls>
@@ -57,6 +58,8 @@ export default function Techskill() {
                  </ul>
             </div>
 
+            </div>
+            
             
 
           </div>

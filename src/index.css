@@ -37,7 +37,7 @@
 .body .hr3{
     content: "";
     position: absolute;
-    top: 220rem;
+    top: 255rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -55,6 +55,7 @@ span{
     color:white;
     transition: transform 330ms ease-in-out;
     font-family: 'EB Garamond', serif;
+
 }
 .nav_bar:hover{
     color:gray;
@@ -100,6 +101,7 @@ span{
 
 .nav{
     position:fixed;
+    z-index:5;
 }
 
 .btn {
@@ -139,7 +141,7 @@ span{
 }
 .full_about span{
     font-size:55px;
-
+    display:inline-block;
 }
 .full_about h2{
     color:gray;
@@ -176,6 +178,11 @@ span{
 .education h1{
     color:white;
     margin-bottom:20px
+}
+.education .span{
+    position:relative;
+    top:-20px;
+    display:inline-block;
 }
 .education p{
     color:gray;
@@ -255,6 +262,7 @@ color:white
 .contact .span{
     position:relative;
     left:12rem;
+    display:inline-block;
 }
 
 .contact h3{
@@ -290,7 +298,8 @@ color:white
 .techskill .span{
      position:relative;
      left:45rem;
-     top:-1px;
+     top:-10px;
+     display:inline-block;
 
 }
 .techskill h2{
@@ -301,7 +310,45 @@ color:white
     text-decoration-opacity:0.5;
 }
 
-.techskill  .frontend  {
+
+.techskill  ls{
+    display:block;
+    margin:20px;
+    font-size:20px;
+}
+.bars{
+    color:gray;
+    font-size:30px;
+    width:fit-content;
+    position:relative;
+    margin-left:auto;
+}
+.mob-header {
+    padding: 12px;
+    display: none;
+    position: fixed;
+    width:100%;
+    z-index: 11;
+    background-color:#10101a;
+    height:60px;
+}
+.d-flex{
+    display:flex;
+     align-items:center;
+}
+
+
+
+
+@media only screen and (min-width: 460px) {
+.background{
+    background-attachment:fixed;
+  }
+  .ts{
+    margin-left:120px;
+    margin-bottom:20px;
+  }
+  .techskill  .frontend  {
     background-color:white;
     position:relative;
     left:10rem;
@@ -324,7 +371,7 @@ color:white
     position:relative;
     padding:25px;
     display:inline-block;
-    left:-19rem;
+    left:-9rem;
     top:3rem;
 }
 
@@ -334,7 +381,7 @@ color:white
     padding:25px;
     display:inline-block;
     top:3rem;
-    left:-17rem;
+    left:-7rem;
 }
 .techskill  .Hosting{
     background-color:white;
@@ -347,14 +394,273 @@ color:white
     background-color:white;
     position:relative;
     display:inline-block;
-    left:65rem;
-    top:-26rem;
+    left:-12rem;
+    top:-8rem;
 }
 
-
-.techskill  ls{
-    display:block;
-    margin:20px;
-    font-size:20px;
 }
+@media only screen and (max-width: 460px) {
+    .navbar-brand-normal{
+        display:none;
+    }
+    .mob-header{
+        display:block;
+    }
+    .nav{
+        display:none;
+        width:100%;
+    }
+    .logo{
+        position:relative;
+        left:10px;
+        font-size:30px;
+    }
+    .intro{
+        position:relative;
+        left:0rem;  
+        margin-left:2.5rem;
+        top:12rem;
+        padding:5px;
+    }
+    .home{
+        padding:0px;
+    }
+    .intro h1{
+        position:relative;
+        margin-left:50px;
+        font-size:35px;
+    }
+    .intro h3{
+        position:relative;
+        top:-5px;
+        font-size:22px;
+        padding:0px;
+        margin-left:25px;
+    }
+    .intro .social{
+        position:relative;
+        left:-7rem;
+    }
+    .intro .social .social_media{
+        font-size:20px;
+        width:10px;
+        height:10px;
+        position:relative;
+        top:-20px;
+        left:20px;
+    }
+    .intro .button{
+        position:relative;
+        top:-20px;
+        left:-6rem;
+    }
+    .intro .button .btn{
+        font-size:10px;
+    }
+    .full_about{
+        padding:5px;
+        padding-top:5rem;
+    }
+    .full_about h1{
+        width:fit-content;
+        padding:0px;
+        position:relative;
+        margin:0;
+        top:-2rem;
+        margin-left:8rem;
+        font-size:35px;
+    }
+    .full_about span{
+        font-size:35px;
+    }
+    .full_about .span{
+        left:10rem;
+        top:-29px;
+    }
+    .full_about .image {
+        top: 0rem;
+        left:0rem;
+        margin-left:5rem;
+        height: 100%;
+    }
+    .full_about .cv h1{
+        margin-left:1rem;
+        top:-2rem;
+        font-size:23px;
+        text-align:justify
+    }
+    .full_about .cv p{
+        position:relative;
+        left:10px;
+        top:-15px;
+    }
+    .full_about .cv .ach{
+        position:relative;
+        left:25px;
+    }
+
+    .full_about .cv h2{
+        position:relative;
+         font-size:15px;
+         margin-right:6rem;
+    }
+    .full_about .cv .btn{
+        position:relative;
+        font-size:12px;
+        margin-left:7.5rem;
+        margin-right:6rem;
+    }
+    .hr1{
+        top:101rem!important;
+    }
+    .hr2{
+       top:190rem !important;
+    }
+    .hr3{
+        top:220rem !important;
+    }
+
+    .education{
+        margin:10px;
+        margin-top:6.5rem;
+        padding:10px;
+     }
+    
+     .education h1{
+        font-size:30px;
+        position:relative;
+        margin-left:2rem;
+        top:-3px;
+     }
+     .education .detailbox{
+        position:relative;
+        left:40px;
+     }
+     .education .detailbox h1{
+        font-size:20px;
+        left:0;
+        padding:5px;
+     }
+     .education .detailbox p{
+        font-size:19px;
+        position:relative;
+        top:-10px;
+     }
+     .education .detailbox h3{
+        font-size:15px;
+        width:30%
+     }
+     .education .detailbox h2{
+        font-size:18px;
+        position:relative;
+        left:0rem;
+        margin-left:15rem;
+        top:-9.5rem;
+        font-weight:bold;
+     }
+    .skill{
+        padding:15px
+    }
+    .skill h2{
+        margin-bottom:25px;
+    }
+    .skill p{
+        margin-bottom:25px;
+    }
+    .techskill .ts{
+        width:50%;        
+    }
+    .techskill .span{
+        left:11rem
+    }
+    .techskill .frontend, .techskill .Backend,.techskill .Version,.techskill .Programming,.techskill .Hosting,.techskill .Database {
+        background-color:white;
+        padding:15px;
+        margin-top:4rem;
+    }
+    .ts{
+     padding:30px;
+     width:100%!important;
+    }
+    .ts .w-fit{
+        width:100%;
+        text-align:center;   
+    }
+    .contact .cv1{
+       position:relative;
+       left:-4rem;
+      
+    }
+    .contact .cv1 p{
+        padding:10px 0;
+        width:70%;
+        margin-left:8rem;
+        margin-right:0 !important;
+        left:0;
+        right:0;
+    }
+    .contact .cv1 h1{
+        padding:10px 0;
+        width:60%;
+        margin-left:9rem;
+        margin-right:0 !important;
+        top:-20px;
+        left:0;
+        right:0;
+    }
+    .contact .cv1 h3{
+        width:80%;
+        margin-left:8rem;
+        margin-right:0 !important;
+        left:0;
+        right:0;
+    }
+    .contact .cv1 h2{
+        width:50%;
+       margin-left:150px;
+       margin-right:0;
+       right:0;
+       left:0;
+    }
+    .contact .cv1 .so{
+        padding-left:20px;
+    }
+    .contact .cv{
+        position:relative;
+        top:-1rem;
+    }
+    .contact .span{
+    left:12.8rem;
+    }
+    .contact .cv .btn{
+        positionL:relative;
+        left:10px;
+        margin-left:80px;
+    }
+    .full_Projects{
+        padding:5px;
+    }
+    .full_Projects h1{
+        font-size:38px;
+        margin-top:35px;
+        padding-left:0;
+    }
+    .full_Projects .span{
+        left:8rem;
+        top:1px;
+    }
+    .full_Projects .individual{
+        padding:10px;
+        margin:1.25rem 0;
+    }
+    .full_Projects .individual h1{
+        font-size:30px;
+    }
+    .full_Projects .individual p ,  .full_Projects .individual a {
+        display:inline-block;
+        width:fit-content;
+        padding:2px;
+    }
+
+  }
 

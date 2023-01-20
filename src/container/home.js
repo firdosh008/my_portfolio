@@ -5,8 +5,8 @@ import Intro from "./intro";
 
 export default function home() {
   return (
-    <div className="bg-cover bg-center w-full h-screen " style={{ backgroundImage:`url(${background})`,backgroundAttachment:"fixed" }}>
-      <div className="p-10">
+    <div className="bg-cover bg-center w-full h-screen  background" style={{ backgroundImage:`url(${background})` }}>
+      <div className="p-10 home">
       <Nav/>
       <Intro/>
       </div>
