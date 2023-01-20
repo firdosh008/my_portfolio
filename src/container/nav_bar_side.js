@@ -40,12 +40,12 @@ export default function App() {
             </div>
             
              <ul className='nav pt-24 mt-3 w-fit' id='nav'>
-                <List className="nav_bar text-3xl" name= {<IoHomeOutline/>}/>
-                <List className="nav_bar text-3xl" name= {<BsPerson/>}/>
-                <List className="nav_bar text-3xl" name= {<SlGraduation/>}/>
-                <List className="nav_bar text-3xl" name= {<BiBriefcase/>}/>
-                <List className="nav_bar text-3xl" name= {<GiNotebook/>}/>
-                <List className="nav_bar text-3xl" name= {<FaRegComments/>}/>
+                <List href="#home" className="nav_bar text-3xl" name= {<IoHomeOutline/>}/>
+                <List href="#about" className="nav_bar text-3xl" name= {<BsPerson/>}/>
+                <List href="#education" className="nav_bar text-3xl" name= {<SlGraduation/>}/>
+                <List href="" className="nav_bar text-3xl" name= {<BiBriefcase/>}/>
+                <List href="#projects" className="nav_bar text-3xl" name= {<GiNotebook/>}/>
+                <List href="#letstalk" className="nav_bar text-3xl" name= {<FaRegComments/>}/>
             </ul>
         </div>
         

@@ -5,7 +5,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 
 export default function Contact() {
     return (
-      <div className='p-24 lg:grid lg:grid-col-2 full_about contact'>
+      <div id="letstalk" className='p-24 lg:grid lg:grid-col-2 full_about contact'>
         <div className='cv1 lg:col-start-1 lg:col-end-2'>
         <h1 className='text-5xl h-fit ml-12 pl-12'><span className='deco'>Con</span>tact Me.</h1><div className="span w-fit"></div>
         <h3 className="mt-5 text-2xl">Let's talk about everything</h3>

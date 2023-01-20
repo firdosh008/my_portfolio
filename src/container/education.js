@@ -5,7 +5,7 @@ export default function EDUCTAION() {
     return (
         <div className="p-24 ml-24 mt-10 education">
             <h1 className="text-5xl"> <span className="deco">EDUC</span>TAION  & SKILL</h1><div className="span "></div>
-            <div className="grid lg:grid-cols-2 pt-10 ">
+            <div id="education" className="grid lg:grid-cols-2 pt-10 ">
                 <div className="grid lg:col-start-1 lg:col-span-1 ">
                     <Detailbox year="2008-2019" name="Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="9.1/10"/>
                     <Detailbox year="2021-2025" name="B-tech Computer Science" detail="Completed My Web-development course from Udemy " cgp="9.2/10"/>

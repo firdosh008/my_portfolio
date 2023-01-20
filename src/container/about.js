@@ -5,7 +5,7 @@ import  Image from '../assets/prof.jpeg' ;
 
 export default function about() {
     return (
-      <div className='p-24 grid lg:grid-col-2 full_about'>
+      <div id="about" className='p-24 grid lg:grid-col-2 full_about'>
         <div className=' lg:col-start-1 lg:col-end-2'>
         <h1 className='text-5xl h-fit ml-12 pl-12'><span className='deco'>Ab</span>out Me.</h1><div className="span w-fit"></div>
         <div className='image'>
