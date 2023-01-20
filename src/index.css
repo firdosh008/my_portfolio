@@ -417,8 +417,9 @@ color:white
     }
     .intro{
         position:relative;
-        left:0rem;  
-        margin-left:2.5rem;
+        left:0rem;
+        width:90%  ;
+        margin-left:0.8rem;
         top:12rem;
         padding:5px;
     }
@@ -427,8 +428,8 @@ color:white
     }
     .intro h1{
         position:relative;
-        margin-left:50px;
-        font-size:35px;
+        margin-left:40px;
+        font-size:32px;
     }
     .intro h3{
         position:relative;
