@@ -23,7 +23,7 @@ export default function about() {
           <span className='font-bold'>6</span><h2>Projects Completed.</h2>
           <span className='font-bold'>300+</span><h2>Questions Solved.</h2>
           </div>
-          <Button name="Download CV" />
+          <Button name="Download CV" h="https://drive.google.com/file/d/1M9Iym1qDMnAvf5T6v1rxo0IVmoNMCThB/view?usp=share_link"/>
         </div>
       </div>
       

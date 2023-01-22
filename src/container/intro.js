@@ -16,7 +16,7 @@ export default function Intro() {
          />
         </span></h3>
         <Social/>
-      <Button className="button" name="Hire me"/>
+      <Button className="button" name="Hire me" h="https://drive.google.com/file/d/1M9Iym1qDMnAvf5T6v1rxo0IVmoNMCThB/view?usp=share_link"/>
       </div> 
     )
   }
