@@ -18,7 +18,7 @@ export default function Projectrow() {
              <Project p="https://avsfffgsfgwt43.my.canva.site/" s="" src={P2} name="Personal Travel Blog"/>
              </div>
              <div className="lg:col-start-3 lg:col-end-4">
-             <Project p="https://firdosh008.github.io/dicegame/" s="https://github.com/firdosh008/dicegame" src={P3} name="Dice Toss Game"/>
+             <Project p="https://devbhomi.onrender.com/" s="https://github.com/firdosh008/devbomi" src={P3} name="Devbhomi"/>
              </div> 
          </div>
          <div className="grid lg:grid-col-3 p-10 pb-0">
