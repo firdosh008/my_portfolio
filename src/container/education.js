@@ -8,8 +8,8 @@ export default function EDUCTAION() {
             <div id="education" className="grid lg:grid-cols-2 pt-10 ">
                 <div className="grid lg:col-start-1 lg:col-span-1 ">
                     <Detailbox year="2008-2019" name="Secondary School Education" detail="I completed it from The Himalayan Public School. " cgp="9.1/10"/>
-                    <Detailbox year="2021-2025" name="B-tech Computer Science" detail="Completed My Web-development course from Udemy " cgp="9.2/10"/>
-                    <Detailbox year="2021-2022" name="Web Development" detail="I am Currently doing my bachlores from Graphic Era Hill University " cgp="8/10"/>
+                    <Detailbox year="2021-2025" name="Web Development" detail="Completed My Web-development course from Udemy " cgp="9.2/10"/>
+                    <Detailbox year="2021-2022" name="B-tech CSE" detail="I am Currently doing my bachlores from Graphic Era Hill University " cgp="8/10"/>
                 </div>
                 <div className="grid lg:col-start-2 lg:col-span-1 skill ">
                  <h2 className="text-5xl pt-10 w-fit h-fit ">My skills</h2>
