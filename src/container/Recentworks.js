@@ -26,10 +26,10 @@ export default function Projectrow() {
             <Project p="https://firdosh008.github.io/simon-game/" s="https://github.com/firdosh008/simon-game" src={P4} name="Simon Game"/>
             </div>
              <div className="lg:col-start-2 lg:col-end-3">
-             <Project p="" s="" src={P5} name="Restraunt Website"/>
+             <Project p="https://yumy.onrender.com/" s="https://github.com/firdosh008/yumy" src={P5} name="Restraunt Website"/>
              </div>
              <div className="lg:col-start-3 lg:col-end-4">
-             <Project  p="" s="" src={P6} name="To-do List"/>
+             <Project  p="https://t0-do-list.onrender.com/" s="https://github.com/firdosh008/to_do_list" src={P6} name="To-do List"/>
              </div> 
          </div>
         </div>  
