@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.cb9a0f14.css",
-    "main.js": "/my_portfolio/static/js/main.a1652018.js",
+    "main.css": "/my_portfolio/static/css/main.e5883c1e.css",
+    "main.js": "/my_portfolio/static/js/main.c4752ae7.js",
     "static/media/project2.png": "/my_portfolio/static/media/project2.b026edd99326b21443f1.png",
-    "static/media/project3.png": "/my_portfolio/static/media/project3.abc64ea30a343882bfd5.png",
+    "static/media/project7.png": "/my_portfolio/static/media/project7.2c761d94452b9f6b298e.png",
+    "static/media/project3.png": "/my_portfolio/static/media/project3.86ef0d75046d2fc4ebb3.png",
     "static/media/project1.png": "/my_portfolio/static/media/project1.e5cee381e554e6bf432e.png",
     "static/media/bci.jpg": "/my_portfolio/static/media/bci.bc9e7d5b96420bd9e04b.jpg",
-    "static/media/project 5.png": "/my_portfolio/static/media/project 5.385ad41f62ea08eb3239.png",
+    "static/media/project5.png": "/my_portfolio/static/media/project5.385ad41f62ea08eb3239.png",
     "static/media/project4.png": "/my_portfolio/static/media/project4.c5a9fbd0e5df19771118.png",
-    "static/media/project 6.png": "/my_portfolio/static/media/project 6.e53cd7e5c8623f97dd0a.png",
+    "static/media/project8.png": "/my_portfolio/static/media/project8.e125aa6d3cf7be82ea7b.png",
+    "static/media/project6.png": "/my_portfolio/static/media/project6.e53cd7e5c8623f97dd0a.png",
     "static/media/prof.jpeg": "/my_portfolio/static/media/prof.b9cfc9a91cc6c274deea.jpeg",
     "index.html": "/my_portfolio/index.html",
-    "main.cb9a0f14.css.map": "/my_portfolio/static/css/main.cb9a0f14.css.map",
-    "main.a1652018.js.map": "/my_portfolio/static/js/main.a1652018.js.map"
+    "main.e5883c1e.css.map": "/my_portfolio/static/css/main.e5883c1e.css.map",
+    "main.c4752ae7.js.map": "/my_portfolio/static/js/main.c4752ae7.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb9a0f14.css",
-    "static/js/main.a1652018.js"
+    "static/css/main.e5883c1e.css",
+    "static/js/main.c4752ae7.js"
   ]
 }
