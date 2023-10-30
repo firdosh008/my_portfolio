@@ -8,7 +8,6 @@ import { AiOutlineBars} from 'react-icons/ai';
 import List from '../components/list';
 import LOGO from "../components/log"
 import React, { useState } from "react";
-import $ from 'jquery'
 
 export default function App() {
 

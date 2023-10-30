@@ -9,14 +9,14 @@ export default function Intro() {
       <h1 className= "font-bold ">FIRDOSH  AHMAD</h1>
       <h3 className='text-4xl m-2 px-20 font-mono font-extralight'>I'm a <span className='autotype'>
         <Typed 
-        strings={["MERN Stack Developer.","Coder.","UI/UX Designer."]}
+        strings={["MERN Stack Developer.","Competitive Programmer","UI/UX Designer."]}
          typeSpeed={50}
          backSpeed={50}
          loop
          />
         </span></h3>
         <Social/>
-      <Button className="button" name="Hire me" h="https://drive.google.com/file/d/1M9Iym1qDMnAvf5T6v1rxo0IVmoNMCThB/view?usp=share_link"/>
+      <Button className="button" name="Hire me" h="https://drive.google.com/file/d/1c7EFB6q576GcoV95pYviC9PuVsmBdqgG/view?usp=drive_link"/>
       </div> 
     )
   }

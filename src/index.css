@@ -6,11 +6,15 @@
 
     font-family: 'Rubik', sans-serif;
     background-color:#10101a
+    
 }
+.background{
+    background-attachment:fixed;
+  }
 .body .hr1{
     content: "";
     position: absolute;
-    top: 94rem;
+    top: 92rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -23,7 +27,7 @@
 .body .hr2{
     content: "";
     position: absolute;
-    top: 153rem;
+    top: 143rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -37,7 +41,7 @@
 .body .hr3{
     content: "";
     position: absolute;
-    top: 255rem;
+    top: 206rem;
     left: 0;
     right: 0;
     bottom: 0;
@@ -72,7 +76,7 @@ span{
 
 .social{
     display:inline-flex;
-    padding-left:8rem;
+    padding-left:11rem;
 }
 .social_media{
     display:inline-block;
@@ -119,15 +123,20 @@ span{
 .button{
     padding-left:15rem;
   }
-
+  .full_about{
+    padding:9rem;
+    padding-top:3rem;
+    padding-bottom:6rem;
+  }
   .full_about h1{
     color:white;
   }
 .full_about .cv{
-    padding:25px;
-   position:relative;
-   top:5rem;
+  padding-top:5rem;
 }
+.full_about .ach{
+    padding-top:3rem;
+ }
 .full_about .image{
     position:relative;
     top:3rem;
@@ -136,11 +145,13 @@ span{
     height:25%;
 }
 .full_about p{
-    padding:20px;
+    padding:10px;
+    padding-top:35px;
+    font-size:17px;
     color:gray;
 }
 .full_about span{
-    font-size:55px;
+    font-size:50px;
     display:inline-block;
 }
 .full_about h2{
@@ -172,8 +183,9 @@ span{
 .detailbox{
     padding:8px;
     background-color:black;
-    margin-top:35px;
+    margin-top:10px;
     width:80%;
+    height:80%;
 }
 .education h1{
     color:white;
@@ -222,10 +234,37 @@ span{
     top:-11px;
     left:7.5rem;
 }
+
 .full_about .span{
     top:-2px;
     left:10rem;
     display:inline-block;
+}
+
+.techSkill{
+    padding-top:5rem;
+    
+}
+.techSkill .techIcon{
+    display:inline-block;
+    color:white;
+    font-size:30px;
+    margin:10px;
+    margin-top:-2px;
+}
+.techDrop{
+    margin-left:30px;
+    display:inline-block;
+}
+
+.dropDown{
+    display:inline-block;
+}
+
+.dropDown-basic{
+    display:inline-block;
+    color:white;
+    font-size:30px;
 }
 
 .full_Projects h1{
@@ -239,21 +278,17 @@ color:white
     left:12.5rem;
 }
 
-.full_Projects .individual{
-    background-color:#edf2f4;
-}
+
 .full_Projects p{
     color:#e63946;
     display:inline-block;
-    padding-right:4rem;
+    padding-right:3.5rem;
     margin:5px;
     font-size:18px;
 }
-
-.full_Projects .individual h1{
-    color:black;
+.full_Projects .individual .zoom{
+    border-radius:15px;
 }
-
 .full_Projects .individual .zoom:hover{
     transform: scale(1.2); 
     transition: transform 400ms ease-in-out;
@@ -267,55 +302,24 @@ color:white
 
 .contact h3{
     position:relative;
-    left:7rem;
+    left:6rem;
 }
 .contact p{
     position:relative;
-    left:6rem;
+    left:5.5rem;
 }
 .contact .so{
     position:relative;
-    left:-4rem;
+    left:-6rem;
 }
 .contact h2{
     color:white;
     display:block;
     position:relative;
     padding:5px;
-    left:8.5rem;
+    left:7.5rem;
 }
 
-.techskill{
-    height:50%;
-}
-
-.techskill h1{
-    color:white;
-    position:relative;
-    text-align:center;
-    margin:10px;
-}
-.techskill .span{
-     position:relative;
-     left:45rem;
-     top:-10px;
-     display:inline-block;
-
-}
-.techskill h2{
-    text-decoration:underline;
-    text-decoration-color:#e63946;
-    text-underline-offset:15px;
-    text-decoration-thickness:2px;
-    text-decoration-opacity:0.5;
-}
-
-
-.techskill  ls{
-    display:block;
-    margin:20px;
-    font-size:20px;
-}
 .bars{
     color:gray;
     font-size:30px;
@@ -339,66 +343,180 @@ color:white
 
 
 
-
-@media only screen and (min-width: 460px) {
-.background{
-    background-attachment:fixed;
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+    
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
   }
-  .ts{
-    margin-left:120px;
-    margin-bottom:20px;
+    
+  > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
   }
-  .techskill  .frontend  {
-    background-color:white;
-    position:relative;
-    left:10rem;
-    top:3rem;
-    padding:25px;
-    display:inline-block;
 }
 
-.techskill  .Backend  {
-    background-color:white;
-    position:relative;
-    left:13rem;
-    top:-10rem;;
-    padding:25px;
-    display:inline-block;
+// Styling
+
+section {
+    background: #F4F4F4;
+    padding: 50px 0;
 }
 
-.techskill  .Database  {
-    background-color:white;
-    position:relative;
-    padding:25px;
-    display:inline-block;
-    left:-9rem;
-    top:3rem;
+.container {
+    max-width: 1044px;
+    margin: 20px auto;
+    padding: 0 20px;
 }
 
-.techskill  .Version  {
-    background-color:white;
-    position:relative;
-    padding:25px;
-    display:inline-block;
-    top:3rem;
-    left:-7rem;
-}
-.techskill  .Hosting{
-    background-color:white;
-    position:relative;
-    display:inline-block;
-    top:-9rem;
-    left:16rem;
-}
-.techskill  .Programming{
-    background-color:white;
-    position:relative;
-    display:inline-block;
-    left:-12rem;
-    top:-8rem;
+.carousel {
+    display: block;
+    text-align: left;
+    position: relative;
+    margin-bottom: 22px;
+    
+    > input {
+        clip: rect(1px, 1px, 1px, 1px);
+        clip-path: inset(50%);
+        height: 1px;
+        width: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        
+        &:nth-of-type(8):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -700%; }
+        &:nth-of-type(7):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -600%; }
+        &:nth-of-type(6):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -500%; }
+        &:nth-of-type(5):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -400%; }
+        &:nth-of-type(4):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -300%; }
+        &:nth-of-type(3):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -200%; }
+        &:nth-of-type(2):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: -100%; }
+        &:nth-of-type(1):checked ~ .carousel__slides .carousel__slide:first-of-type { margin-left: 0%; }
+        
+        &:nth-of-type(1):checked ~ .carousel__thumbnails li:nth-of-type(1) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(2):checked ~ .carousel__thumbnails li:nth-of-type(2) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(3):checked ~ .carousel__thumbnails li:nth-of-type(3) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(4):checked ~ .carousel__thumbnails li:nth-of-type(4) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(5):checked ~ .carousel__thumbnails li:nth-of-type(5) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(6):checked ~ .carousel__thumbnails li:nth-of-type(6) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(7):checked ~ .carousel__thumbnails li:nth-of-type(7) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+        &:nth-of-type(8):checked ~ .carousel__thumbnails li:nth-of-type(8) { box-shadow: 0px 0px 0px 5px rgba(0,0,255,0.5); }
+    }
 }
 
+.carousel__slides {
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: flex;
 }
+
+.carousel__slide {
+    position: relative;
+    display: block;
+    flex: 1 0 100%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 300ms ease-out;
+    vertical-align: top;
+    box-sizing: border-box;
+    white-space: normal;
+    
+    figure {
+        display: flex;
+        margin: 0;
+    }
+    
+    div {
+        @include aspect-ratio(3, 2);
+        width: 100%;
+    }
+    
+    img {
+        display: block;
+        flex: 1 1 auto;
+        object-fit: cover;
+    }
+    
+    figcaption {
+        align-self: flex-end;
+        padding: 20px 20px 0 20px;
+        flex: 0 0 auto;
+        width: 25%;
+        min-width: 150px;
+    }
+    
+    .credit {
+        margin-top: 1rem;
+        color: rgba(0, 0, 0, 0.5);
+        display: block;        
+    }
+    
+    &.scrollable {
+        overflow-y: scroll;
+    }
+}
+
+.carousel__thumbnails {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+    margin: 0 -10px;
+    
+    .carousel__slides + & {
+        margin-top: 20px;
+    }
+    
+    li {        
+        flex: 1 1 auto;
+        max-width: calc((100% / 8) - 20px);  
+        margin: 0 10px;
+        transition: all 300ms ease-in-out;
+    }
+    
+    label {
+        display: block;
+        @include aspect-ratio(1,1);
+        
+                  
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            
+            img {
+                box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.25);
+                transition: all 300ms ease-in-out;
+            }
+        }
+    }
+    
+    img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+
 @media only screen and (max-width: 460px) {
     .navbar-brand-normal{
         display:none;
@@ -562,25 +680,10 @@ color:white
     .skill p{
         margin-bottom:25px;
     }
-    .techskill .ts{
-        width:50%;        
-    }
-    .techskill .span{
-        left:9.3rem
-    }
-    .techskill .frontend, .techskill .Backend,.techskill .Version,.techskill .Programming,.techskill .Hosting,.techskill .Database {
-        background-color:white;
-        padding:15px;
-        margin-top:4rem;
-    }
-    .ts{
-     padding:30px;
-     width:100%!important;
-    }
-    .ts .w-fit{
-        width:100%;
-        text-align:center;   
-    }
+
+    
+
+    
     .contact .cv1{
        position:relative;
        left:-4rem;
@@ -621,8 +724,7 @@ color:white
         padding-left:20px;
     }
     .contact .cv{
-        position:relative;
-        top:-1rem;
+        margin-top:-1rem;
     }
     .contact .span{
     left:12.8rem;
